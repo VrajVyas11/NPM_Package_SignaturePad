@@ -2,10 +2,11 @@
 
 React Signature Pad Canvas is a customizable React component for capturing signatures. Ideal for forms, contracts, and any application requiring user input.
 
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="./images/laptop.png" alt="Signature Pad on Laptop" style="width: 300px; height: auto;">
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+  <img src="./images/laptop.png" alt="Signature Pad on Laptop" style="width: 600px; height: auto;">
   <img src="./images/mobile.png" alt="Signature Pad on Mobile" style="width: 300px; height: auto;">
 </div>
+
 
 ## Installation
 
