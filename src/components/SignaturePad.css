@@ -1,0 +1,65 @@
+.signature-pad {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden; 
+    width: fit-content;
+}
+
+.light {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3); 
+    background-color: rgb(255, 255, 255); 
+}
+
+.dark {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8); 
+    background-color: rgba(50, 50, 50);
+}
+
+.signature-pad canvas {
+    display: flex; 
+    z-index: 10;
+    border-radius: 10px;
+    width: 100%; 
+    height: 100%; 
+}
+
+.signature-pad-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -10px;
+}
+
+.clear-btn, .save-btn {
+    padding: 20px 10px 10px 10px;
+    border: none;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3); 
+    width: 100%;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+.clear-btn {
+    background-color: #dc3545; 
+    border-radius: 0px 0px 0px 20px; 
+}
+
+.clear-btn:hover {
+    background-color: #c82333;
+}
+
+.save-btn {
+    background-color: #007bff; 
+    border-radius: 0px  0px 20px 0px; 
+}
+
+.save-btn:hover {
+    background-color: #0056b3;
+}

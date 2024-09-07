@@ -1,0 +1,17 @@
+{
+  "name": "sign_x",
+  "version": "1.0.0",
+  "description": "A simple npm package to capture user signature as an image using canvas",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "react": "^18.3.1",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.7.0",
+    "typescript": "^5.5.4"
+  }
+}
