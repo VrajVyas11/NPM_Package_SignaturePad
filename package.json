@@ -1,6 +1,6 @@
 {
   "name": "react-signaturepadcanvas",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple npm package to capture user signature as an image using canvas",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
